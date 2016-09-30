@@ -1534,17 +1534,107 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM1" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM2" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D5" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D6" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM3" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D7" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D8" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM4" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D9" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D10" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM5" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D11" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D12" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM6" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D13" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D14" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM7" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D15" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D16" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM8" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D17" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D18" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="ROBORIO_PWM9" library="SparkFun-Connectors" deviceset="M03" device="POGO_PIN_HOLES_ONLY"/>
+<part name="D19" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="D20" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
+<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="1206"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="ROBORIO_PWM" gate="J$1" x="-53.34" y="60.96"/>
-<instance part="D1" gate="G$1" x="-12.7" y="60.96" rot="R90"/>
-<instance part="D2" gate="G$1" x="20.32" y="60.96" rot="R90"/>
-<instance part="R1" gate="G$1" x="-27.94" y="60.96"/>
-<instance part="R2" gate="G$1" x="5.08" y="60.96"/>
+<instance part="ROBORIO_PWM" gate="J$1" x="12.7" y="99.06"/>
+<instance part="D1" gate="G$1" x="53.34" y="99.06" rot="R90"/>
+<instance part="D2" gate="G$1" x="86.36" y="99.06" rot="R90"/>
+<instance part="R1" gate="G$1" x="38.1" y="99.06"/>
+<instance part="R2" gate="G$1" x="71.12" y="99.06"/>
+<instance part="ROBORIO_PWM1" gate="J$1" x="12.7" y="81.28"/>
+<instance part="D3" gate="G$1" x="53.34" y="81.28" rot="R90"/>
+<instance part="D4" gate="G$1" x="86.36" y="81.28" rot="R90"/>
+<instance part="R3" gate="G$1" x="38.1" y="81.28"/>
+<instance part="R4" gate="G$1" x="71.12" y="81.28"/>
+<instance part="ROBORIO_PWM2" gate="J$1" x="12.7" y="63.5"/>
+<instance part="D5" gate="G$1" x="53.34" y="63.5" rot="R90"/>
+<instance part="D6" gate="G$1" x="86.36" y="63.5" rot="R90"/>
+<instance part="R5" gate="G$1" x="38.1" y="63.5"/>
+<instance part="R6" gate="G$1" x="71.12" y="63.5"/>
+<instance part="ROBORIO_PWM3" gate="J$1" x="12.7" y="45.72"/>
+<instance part="D7" gate="G$1" x="53.34" y="45.72" rot="R90"/>
+<instance part="D8" gate="G$1" x="86.36" y="45.72" rot="R90"/>
+<instance part="R7" gate="G$1" x="38.1" y="45.72"/>
+<instance part="R8" gate="G$1" x="71.12" y="45.72"/>
+<instance part="ROBORIO_PWM4" gate="J$1" x="12.7" y="27.94"/>
+<instance part="D9" gate="G$1" x="53.34" y="27.94" rot="R90"/>
+<instance part="D10" gate="G$1" x="86.36" y="27.94" rot="R90"/>
+<instance part="R9" gate="G$1" x="38.1" y="27.94"/>
+<instance part="R10" gate="G$1" x="71.12" y="27.94"/>
+<instance part="ROBORIO_PWM5" gate="J$1" x="12.7" y="10.16"/>
+<instance part="D11" gate="G$1" x="53.34" y="10.16" rot="R90"/>
+<instance part="D12" gate="G$1" x="86.36" y="10.16" rot="R90"/>
+<instance part="R11" gate="G$1" x="38.1" y="10.16"/>
+<instance part="R12" gate="G$1" x="71.12" y="10.16"/>
+<instance part="ROBORIO_PWM6" gate="J$1" x="12.7" y="-7.62"/>
+<instance part="D13" gate="G$1" x="53.34" y="-7.62" rot="R90"/>
+<instance part="D14" gate="G$1" x="86.36" y="-7.62" rot="R90"/>
+<instance part="R13" gate="G$1" x="38.1" y="-7.62"/>
+<instance part="R14" gate="G$1" x="71.12" y="-7.62"/>
+<instance part="ROBORIO_PWM7" gate="J$1" x="12.7" y="-25.4"/>
+<instance part="D15" gate="G$1" x="53.34" y="-25.4" rot="R90"/>
+<instance part="D16" gate="G$1" x="86.36" y="-25.4" rot="R90"/>
+<instance part="R15" gate="G$1" x="38.1" y="-25.4"/>
+<instance part="R16" gate="G$1" x="71.12" y="-25.4"/>
+<instance part="ROBORIO_PWM8" gate="J$1" x="12.7" y="-43.18"/>
+<instance part="D17" gate="G$1" x="53.34" y="-43.18" rot="R90"/>
+<instance part="D18" gate="G$1" x="86.36" y="-43.18" rot="R90"/>
+<instance part="R17" gate="G$1" x="38.1" y="-43.18"/>
+<instance part="R18" gate="G$1" x="71.12" y="-43.18"/>
+<instance part="ROBORIO_PWM9" gate="J$1" x="12.7" y="-60.96"/>
+<instance part="D19" gate="G$1" x="53.34" y="-60.96" rot="R90"/>
+<instance part="D20" gate="G$1" x="86.36" y="-60.96" rot="R90"/>
+<instance part="R19" gate="G$1" x="38.1" y="-60.96"/>
+<instance part="R20" gate="G$1" x="71.12" y="-60.96"/>
 </instances>
 <busses>
 </busses>
@@ -1552,44 +1642,461 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <net name="S" class="0">
 <segment>
 <pinref part="ROBORIO_PWM" gate="J$1" pin="3"/>
-<wire x1="-45.72" y1="63.5" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="101.6" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="68.58" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-5.08" y="60.96"/>
+<wire x1="58.42" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="106.68" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
+<junction x="60.96" y="99.06"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="25.4" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="60.96" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="-45.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="99.06" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="ROBORIO_PWM" gate="J$1" pin="1"/>
-<wire x1="-45.72" y1="55.88" x2="-45.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="93.98" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="ROBORIO_PWM" gate="J$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="60.96" x2="-12.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
+<junction x="50.8" y="99.06"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="10.16" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S1" class="0">
+<segment>
+<pinref part="ROBORIO_PWM1" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="83.82" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="88.9" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<junction x="60.96" y="81.28"/>
+</segment>
+</net>
+<net name="GND1" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="81.28" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM1" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="76.2" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="ROBORIO_PWM1" gate="J$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<junction x="50.8" y="81.28"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S2" class="0">
+<segment>
+<pinref part="ROBORIO_PWM2" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="66.04" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="71.12" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<junction x="60.96" y="63.5"/>
+</segment>
+</net>
+<net name="GND2" class="0">
+<segment>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="63.5" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM2" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="58.42" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="ROBORIO_PWM2" gate="J$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<junction x="50.8" y="63.5"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S3" class="0">
+<segment>
+<pinref part="ROBORIO_PWM3" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="48.26" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="45.72" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="53.34" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<junction x="60.96" y="45.72"/>
+</segment>
+</net>
+<net name="GND3" class="0">
+<segment>
+<pinref part="D8" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="45.72" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM3" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="40.64" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="ROBORIO_PWM3" gate="J$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<junction x="50.8" y="45.72"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S4" class="0">
+<segment>
+<pinref part="ROBORIO_PWM4" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="30.48" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="35.56" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<junction x="60.96" y="27.94"/>
+</segment>
+</net>
+<net name="GND4" class="0">
+<segment>
+<pinref part="D10" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="27.94" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM4" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="ROBORIO_PWM4" gate="J$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<junction x="50.8" y="27.94"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S5" class="0">
+<segment>
+<pinref part="ROBORIO_PWM5" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="17.78" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<junction x="60.96" y="10.16"/>
+</segment>
+</net>
+<net name="GND5" class="0">
+<segment>
+<pinref part="D12" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="10.16" x2="96.52" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="10.16" x2="96.52" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="5.08" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM5" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="ROBORIO_PWM5" gate="J$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
+<junction x="50.8" y="10.16"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S6" class="0">
+<segment>
+<pinref part="ROBORIO_PWM6" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="-5.08" x2="20.32" y2="0" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="0" x2="60.96" y2="0" width="0.1524" layer="91"/>
+<pinref part="D13" gate="G$1" pin="C"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="-7.62" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-7.62" x2="66.04" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="0" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="60.96" y="-7.62"/>
+</segment>
+</net>
+<net name="GND6" class="0">
+<segment>
+<pinref part="D14" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-7.62" x2="96.52" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-12.7" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM6" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="ROBORIO_PWM6" gate="J$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-7.62" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-7.62" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="D13" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="-7.62" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="50.8" y="-7.62"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="D14" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S7" class="0">
+<segment>
+<pinref part="ROBORIO_PWM7" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="-22.86" x2="20.32" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-17.78" x2="60.96" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="C"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="-25.4" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-25.4" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-17.78" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="60.96" y="-25.4"/>
+</segment>
+</net>
+<net name="GND7" class="0">
+<segment>
+<pinref part="D16" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="-25.4" x2="96.52" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-25.4" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-30.48" x2="20.32" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM7" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="-30.48" x2="20.32" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="ROBORIO_PWM7" gate="J$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-25.4" x2="33.02" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-25.4" x2="50.8" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="-25.4" x2="53.34" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="50.8" y="-25.4"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="D16" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="-25.4" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S8" class="0">
+<segment>
+<pinref part="ROBORIO_PWM8" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="-40.64" x2="20.32" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-35.56" x2="60.96" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="D17" gate="G$1" pin="C"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="-43.18" x2="60.96" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-43.18" x2="66.04" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-35.56" x2="60.96" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="60.96" y="-43.18"/>
+</segment>
+</net>
+<net name="GND8" class="0">
+<segment>
+<pinref part="D18" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="-43.18" x2="96.52" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-43.18" x2="96.52" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-48.26" x2="20.32" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM8" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="-48.26" x2="20.32" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="ROBORIO_PWM8" gate="J$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-43.18" x2="33.02" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-43.18" x2="50.8" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="D17" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="-43.18" x2="53.34" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="50.8" y="-43.18"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="D18" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="-43.18" x2="83.82" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="S9" class="0">
+<segment>
+<pinref part="ROBORIO_PWM9" gate="J$1" pin="3"/>
+<wire x1="20.32" y1="-58.42" x2="20.32" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-53.34" x2="60.96" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="D19" gate="G$1" pin="C"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="-60.96" x2="60.96" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-60.96" x2="66.04" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-53.34" x2="60.96" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="60.96" y="-60.96"/>
+</segment>
+</net>
+<net name="GND9" class="0">
+<segment>
+<pinref part="D20" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="-60.96" x2="96.52" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-60.96" x2="96.52" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-66.04" x2="20.32" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="ROBORIO_PWM9" gate="J$1" pin="1"/>
+<wire x1="20.32" y1="-66.04" x2="20.32" y2="-63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="ROBORIO_PWM9" gate="J$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-60.96" x2="33.02" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-60.96" x2="50.8" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="D19" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="-60.96" x2="53.34" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="50.8" y="-60.96"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="D20" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="-60.96" x2="83.82" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
