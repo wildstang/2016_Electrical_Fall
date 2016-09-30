@@ -1543,44 +1543,23 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="ROBORIO_PWM" gate="J$1" x="-53.34" y="60.96"/>
 <instance part="D1" gate="G$1" x="-12.7" y="60.96" rot="R90"/>
 <instance part="D2" gate="G$1" x="20.32" y="60.96" rot="R90"/>
-<instance part="R1" gate="G$1" x="-27.94" y="60.96" rot="R180"/>
-<instance part="R2" gate="G$1" x="5.08" y="60.96" rot="R180"/>
+<instance part="R1" gate="G$1" x="-27.94" y="60.96"/>
+<instance part="R2" gate="G$1" x="5.08" y="60.96"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-22.86" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="S" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="ROBORIO_PWM" gate="J$1" pin="3"/>
-<wire x1="-5.08" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="63.5" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="68.58" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-5.08" y="60.96"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="10.16" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="6V" class="0">
-<segment>
-<pinref part="ROBORIO_PWM" gate="J$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-45.72" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1591,6 +1570,26 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="30.48" y1="55.88" x2="-45.72" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="ROBORIO_PWM" gate="J$1" pin="1"/>
 <wire x1="-45.72" y1="55.88" x2="-45.72" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="ROBORIO_PWM" gate="J$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-45.72" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="60.96" x2="-12.7" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="10.16" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
