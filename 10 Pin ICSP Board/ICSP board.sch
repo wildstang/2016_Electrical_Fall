@@ -3791,6 +3791,12 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="POWER" library="con-molex" deviceset="87758-0216" device=""/>
+<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="D5" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="ERROR"/>
+<part name="D6" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="PMODE"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3845,6 +3851,12 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <attribute name="VALUE" x="-26.162" y="-21.463" size="1.778" layer="96"/>
 </instance>
 <instance part="POWER" gate="-2" x="-25.4" y="-27.94"/>
+<instance part="GND14" gate="1" x="205.74" y="-10.16"/>
+<instance part="GND15" gate="1" x="185.42" y="-10.16"/>
+<instance part="D5" gate="G$1" x="205.74" y="7.62"/>
+<instance part="D6" gate="G$1" x="185.42" y="7.62"/>
+<instance part="R6" gate="G$1" x="205.74" y="22.86" rot="R90"/>
+<instance part="R7" gate="G$1" x="185.42" y="22.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3958,6 +3970,16 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <pinref part="POWER" gate="-2" pin="S"/>
 <wire x1="-27.94" y1="-27.94" x2="-35.56" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-35.56" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="185.42" y1="-7.62" x2="185.42" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="-7.62" x2="205.74" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4209,12 +4231,22 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="137.16" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
 <label x="144.78" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="27.94" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
+<label x="185.42" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="D8" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
 <wire x1="137.16" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
 <label x="144.78" y="27.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="33.02" x2="205.74" y2="27.94" width="0.1524" layer="91"/>
+<label x="205.74" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -4311,6 +4343,20 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="5.08" x2="-55.88" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="10.16" x2="205.74" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="185.42" y1="17.78" x2="185.42" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
